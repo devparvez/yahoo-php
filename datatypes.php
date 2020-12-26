@@ -12,5 +12,11 @@ echo $x."<br>";
 
 var_dump($x);
 
+//Single line comments
+
+#alternative of single line comments
+
+/*multiple line comments system*/
+
 
  ?>
