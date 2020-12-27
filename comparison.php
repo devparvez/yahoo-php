@@ -4,9 +4,9 @@
 
 	//$a=20; 
 
-	$a =1;
+	//$a =1;
 
-	$b=10;
+	//$b=10;
 
 
 	//echo $a == $b;
@@ -29,11 +29,48 @@
 	//if($a > $b){
 	//	echo "A is greater operator";
 	//}
-	$a = 20;
-	$b= 20;
-	if($a === $b):
-		echo "this is testing of colon<br>";
-		echo "this is testing of colon<br>";
-	endif;
+	//$a = 20;
+	//$b= 20;
+	//if($a === $b):
+		//echo "this is testing of colon<br>";
+	//	echo "this is testing of colon<br>";
+	//endif;
+
+//logical operators
+
+//	$age = 20;
+//	if($age>=18 && $age <= 21){
+//		echo "U are eligible";
+//	}
+	
+
+	// $age = 20;
+	// if($age>=18 and $age <= 21){
+	//	 echo "U are eligible";
+	// }
+
+//$age = -1;
+ //if($age>=18 || $age <= 21){
+//	 echo "U are eligible";
+// }
+
+ //$age = -1;
+ //if($age>=18 or $age <= 21){
+//	 echo "U are eligible";
+// }
+
+
+//$age=25;
+//if(!($age>=18)){
+	//echo "You are eligible";
+//}
+
+$age = 2;
+if($age >= 18 xor $age <= 21){
+	echo "u are eligible";
+}
+
+
+
 
  ?>
