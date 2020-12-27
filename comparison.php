@@ -65,9 +65,34 @@
 	//echo "You are eligible";
 //}
 
-$age = 2;
+/* $age = 2;
 if($age >= 18 xor $age <= 21){
 	echo "u are eligible";
+}
+*/
+/*$x= 15;
+if($x > 30){
+	echo "x is greater";
+}else{
+	echo "x is smaller";
+
+}
+*/
+$x= 100;
+if($x === "100"){
+	echo "x is same";
+}else{
+	echo "x is not same";
+	
+}
+
+
+$name = "yahoo-baba";
+$gender = "female";
+if($gender == "male"){
+	echo "<br> hello mr". $name;
+}else{
+	echo "<br> hello miss". $name;
 }
 
 
