@@ -78,6 +78,8 @@ if($x > 30){
 
 }
 */
+
+/*
 $x= 100;
 if($x === "100"){
 	echo "x is same";
@@ -94,6 +96,41 @@ if($gender == "male"){
 }else{
 	echo "<br> hello miss". $name;
 }
+*/
+
+/*
+$per = 1001;
+if($per >= 80 && $per <= 100){
+	echo "You are merit";
+}elseif ($per >=60 && $per < 80) {
+	echo "you are in ist division";
+}elseif ($per >= 45 && $per < 60){
+	echo "you are in iist division";
+}elseif ($per >=33 && $per < 45){
+	echo "YOu are in iiird division";
+}elseif ($per < 33){
+	echo "You are fail";
+}else{
+	echo "Please enter valid percentage";
+}
+*/
+
+//Alter native way with colon;
+
+$per = 100;
+if($per >= 80 && $per <= 100):
+	echo "You are merit";
+elseif ($per >=60 && $per < 80) :
+	echo "you are in ist division";
+elseif ($per >= 45 && $per < 60):
+	echo "you are in iist division";
+elseif ($per >=33 && $per < 45):
+	echo "You are in iiird division";
+elseif ($per < 33):
+	echo "You are fail";
+else:
+	echo "Please enter valid percentage";
+endif;
 
 
 
