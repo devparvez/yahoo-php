@@ -117,6 +117,7 @@ if($per >= 80 && $per <= 100){
 
 //Alter native way with colon;
 
+/*
 $per = 100;
 if($per >= 80 && $per <= 100):
 	echo "You are merit";
@@ -131,6 +132,98 @@ elseif ($per < 33):
 else:
 	echo "Please enter valid percentage";
 endif;
+
+*/
+
+/*
+
+$weekday = 1;
+
+switch($weekday){
+	case 1:
+
+	echo "today is Monday";
+	echo "<br> This is just a test";
+	break;
+
+	case 2:
+	echo "today is Tuesday";
+	break;
+	case 3:
+	echo "today is Wednesday";
+	break;
+	case 4:
+	echo "today is Thursday";
+	break;
+	case 5:
+	echo "today is Friday";
+	break;
+	case 6:
+	echo "today is Saturday";
+	break;
+	case 7:
+	echo "today is Sunday";
+	break;
+
+	default:
+	echo "Please enter the valid weekday";
+}
+	*/
+
+	//Alternative  way of switch case1 ,case 2,case 3 same;
+/*
+$weekday = 3;
+
+switch($weekday){
+
+	case 1: case 2: case 3:
+
+	echo "today is Monday";
+	echo "<br> This is just a test";
+	break;
+
+	case 4:
+	echo "today is Thursday";
+	break;
+
+	case 5:
+	echo "today is Friday";
+	break;
+
+	case 6:
+	echo "today is Saturday";
+	break;
+
+	case 7:
+	echo "today is Sunday";
+	break;
+	
+	default:
+	echo "Please enter the valid weekday";
+
+}
+*/
+
+$age = 50;
+
+switch(true){
+
+	case ( $age >= 15 && $age <= 20):
+
+	echo "You are eligible";
+	break;
+
+	
+	case ( $age >= 21 && $age <= 30):
+
+	echo "You are not eligible";
+	break;
+
+	default:
+	echo "Please enter the valid age";
+
+}
+
 
 
 
