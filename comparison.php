@@ -203,7 +203,7 @@ switch($weekday){
 
 }
 */
-
+/*
 $age = 50;
 
 switch(true){
@@ -223,7 +223,35 @@ switch(true){
 	echo "Please enter the valid age";
 
 }
+*/
+//ternery operators
+/* $x= 30;
 
+($x > 20)? $z="Greater":$z="Smaller";
+
+echo $z;
+*/
+//alter native way
+/*
+$z = ($x > 20)? "Greater": "smaller";
+
+echo $z;
+*/
+
+// we can try it without round braces
+/*
+$x =30;
+
+$z = $x > 20 ? "Greater": "smaller";
+
+echo $z;
+
+*/
+//we can try it with string values
+$x = 31;
+$z = "value is: ".($x > 30 ? "greater" : "smaller");
+
+echo $z;
 
 
 
