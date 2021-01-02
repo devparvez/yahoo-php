@@ -30,13 +30,34 @@ while($a <= 10){
 	$a++;
 }
 */
+/*
 $a = 1;
 echo "<ul>";
 while($a <= 30){
-	echo "<li>".$a.")Hello<br></li>";
+	echo "<li>".$a.")Hello</li>";
 	$a= $a+2;
 echo "</ul>";
 }
+*/
+
+//======= Do while loop =====//
+/*
+
+$a = 1;
+
+do{
+	echo $a ." )Hello Aman <br>";
+	$a++;
+}while($a <= 20);
+
+*/
+$a = 10;
+do{
+	echo "<ul>";
+	echo "<li>". $a ."Hello Aman </li>";
+	echo "</ul>";
+	$a--;
+}while($a >= 1);
 
 
 
