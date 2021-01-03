@@ -51,6 +51,7 @@ do{
 }while($a <= 20);
 
 */
+/*
 $a = 10;
 do{
 	echo "<ul>";
@@ -58,7 +59,20 @@ do{
 	echo "</ul>";
 	$a--;
 }while($a >= 1);
-
+*/
+/*
+for($a = 1;$a <= 10; $a++){
+	echo $a.")Aman <br>";
+}
+*/
+/*
+for($a = 1;$a <= 10; $a= $a +2){
+	echo $a.")Aman <br>";
+}
+*/
+for($a = 10;$a >= 1; $a--){
+	echo "<b>".$a.")Aman <br></b>";
+}
 
 
 
