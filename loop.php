@@ -70,9 +70,21 @@ for($a = 1;$a <= 10; $a= $a +2){
 	echo $a.")Aman <br>";
 }
 */
+/*
 for($a = 10;$a >= 1; $a--){
 	echo "<b>".$a.")Aman <br></b>";
 }
+*/
+// ========== Nested Loop ========== //
+for($a = 1; $a <= 100 ; $a = $a + 10){
+	for($b = $a;$b < $a+ 10; $b++){
+		echo $b." ";
+
+	}
+	echo "<br>";
+	
+}
+
 
 
 
