@@ -76,15 +76,61 @@ for($a = 10;$a >= 1; $a--){
 }
 */
 // ========== Nested Loop ========== //
+/*
 for($a = 1; $a <= 100 ; $a = $a + 10){
-	for($b = $a;$b < $a+ 10; $b++){
+	for($b = $a;$b < $a + 10; $b++){
 		echo $b." ";
 
 	}
 	echo "<br>";
 	
 }
+for($a=1;$a<=100;$a=$a+10){
+	for($b=$a;$b <= $a +10;$b++){
+		echo "parvez "."  ";
+	}
+	echo "<br>";
+}
+*/
 
+//========== continue and break statement===============
+
+/* for($a = 1;$a < 10; $a++){
+	if($a == 3){
+		continue;// 3 is not printing here
+	}
+	echo $a." ";
+ }
+*/
+
+ /*for($a = 1;$a < 10; $a++){
+ 	if($a == 3){
+ 		echo "this no:". $a."<br>";
+ 		continue;
+
+ 	}
+ 	echo "this is number:". $a ."<br>";
+ }
+ */
+
+ /*for($a =1 ;$a <=10;$a++){
+ 	
+ 	if($a == 5){
+ 		break;
+ 	}
+ 	echo $a. "<br>";
+ }
+ */
+ 
+ /*for($a =1 ;$a <=10;$a++){
+ 	
+ 	if($a == 5){
+ 		echo $a. "<br>";
+ 		break;
+ 	}
+ 	
+ }
+ */
 
 
 
