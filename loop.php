@@ -121,7 +121,7 @@ for($a=1;$a<=100;$a=$a+10){
  	echo $a. "<br>";
  }
  */
- 
+
  /*for($a =1 ;$a <=10;$a++){
  	
  	if($a == 5){
@@ -131,6 +131,30 @@ for($a=1;$a<=100;$a=$a+10){
  	
  }
  */
+ /*for($a = 1;$a <= 100;$a=$a+10){
+ 	for($b=$a;$b < $a + 10;$b++){
+ 		echo " * ". " ";
+ 	}
+ 	echo "<br>";
+ }
+ */
+
+ //====== Goto statement =======
+
+ echo "This is parvez<br>";
+ echo "This is parvez<br>";
+ echo "This is parvez<br>";
+
+ goto abc;
+
+ echo "This is parvez";
+ echo "This is parvez";
+ echo "This is parvez";
+
+ abc:
+ echo "this is Anower<br>";
+
+
 
 
 
