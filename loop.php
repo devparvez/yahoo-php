@@ -141,6 +141,7 @@ for($a=1;$a<=100;$a=$a+10){
 
  //====== Goto statement =======
 
+/*
  echo "This is parvez<br>";
  echo "This is parvez<br>";
  echo "This is parvez<br>";
@@ -154,7 +155,16 @@ for($a=1;$a<=100;$a=$a+10){
  abc:
  echo "this is Anower<br>";
 
+*/
+ for($a=1;$a<=10;$a++){
 
+ 	if($a == 5){
+ 		goto parvez;
+ 	}
+ 	echo "This is Hossain<br>";
+ }
+ parvez:
+ echo "this is aman";
 
 
 
