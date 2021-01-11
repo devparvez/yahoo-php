@@ -50,6 +50,8 @@ function hello($first,$last){
  $name = hello("parv","mahmud");
  echo $name;
  */
+
+ /*
  function sum($math,$eng,$phy){
  	$s = $math + $eng + $phy;
  	return $s;
@@ -63,6 +65,30 @@ function hello($first,$last){
  }
  percentage($total);
  //echo $total;
+ */
+
+/*
+ function testing(&$string){
+
+ 	$string .= "And something extra";
+
+ }
+ $str = "this is string";
+ testing($str);
+ echo $str;
+*/
+ function first($num){
+ 	$num +=5;
+ }
+ function second(&$num){
+ 	$num += 3;
+ }
+ $number=10;
+ first($number);
+ echo $number;
+ second($number);
+ echo $number;
+
 
 
 
