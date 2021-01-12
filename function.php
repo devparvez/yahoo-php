@@ -67,6 +67,8 @@ function hello($first,$last){
  //echo $total;
  */
 
+ //=====functions as reference=====
+
 /*
  function testing(&$string){
 
@@ -77,6 +79,7 @@ function hello($first,$last){
  testing($str);
  echo $str;
 */
+ /*
  function first($num){
  	$num +=5;
  }
@@ -88,6 +91,29 @@ function hello($first,$last){
  echo $number;
  second($number);
  echo $number;
+ */
+ // ========= variables functions==========
+
+ /*function wow(){
+
+ 	echo "Hello";
+ }
+ $func = "wow";
+ $func();
+ */
+
+  function wow($name){
+
+ 	echo "Hello $name";
+ }
+ $func = "wow";
+ $func("parvez mahmud");
+//annonymous function
+ $sayHello = function($name){
+ 	echo "Hello $name";
+ };
+ $sayHello("parvez");
+
 
 
 
