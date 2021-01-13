@@ -102,6 +102,8 @@ function hello($first,$last){
  $func();
  */
 
+ /*
+
   function wow($name){
 
  	echo "Hello $name";
@@ -114,8 +116,26 @@ function hello($first,$last){
  };
  $sayHello("parvez");
 
-
-
+*/
+ //======== recursive function=======
+ 
+ function display($number){
+ 	if($number <= 5){
+ 		echo "$number<br>";
+ 		display($number+1);
+ 	}
+ 	
+ }
+ display(1);
+ // example of recursive function with factorial
+ function factorial($n){
+ 	if($n == 0){
+ 		return 1;
+ 	}else{
+ 		return ($n * factorial($n-1));
+ 	}
+ }
+ echo factorial(5);
 
 
 
