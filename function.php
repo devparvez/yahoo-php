@@ -118,7 +118,8 @@ function hello($first,$last){
 
 */
  //======== recursive function=======
- 
+
+ /*
  function display($number){
  	if($number <= 5){
  		echo "$number<br>";
@@ -136,8 +137,36 @@ function hello($first,$last){
  	}
  }
  echo factorial(5);
+*/
+
+ //======= Local and global variable =========
+/* function test(){
+ 	$x = 10;
+ 	echo "this is variable inside $x";
+ }
+ test();
+ echo "this is variable out side $x";
+ */
+/* $x = 10;
+
+function test(){
+ 	global $x;
+ 	echo "this is variable inside $x";
+ }
+ test();
+ echo "this is variable out side $x";
+ */
 
 
+ $x = 10;
+ $y = 20;
+
+function test(){
+ 	global $x, $y;
+ 	$x = $x + $y;
+ }
+ test();
+ echo "this is variable out side $x";
 
 
 
