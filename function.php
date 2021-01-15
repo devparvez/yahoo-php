@@ -182,7 +182,7 @@ function test(){
  */
 // square braces, don't need to write array
 
- $colors = ["red","green","blue",20];
+ //$colors = ["red","green","blue",20];
 
  /*
  $colors[0] = "red";
@@ -190,6 +190,7 @@ function test(){
  $colors[2] = "blue";
  $colors[3] = "20";
 */
+ /*
  for($i = 0;$i <= 3;$i++){
  	echo "<ul>";
 
@@ -197,21 +198,68 @@ function test(){
 
  	echo "</ul>";
  }
-
-
-
-
-
-
- /*echo $colors[1]."<br>";
- echo $colors[0]."<br>";
- echo $colors[2]."<br>";
- echo $colors[3]."<br>";
-*/
- /*echo "<pre>";
- print_r($colors);
- echo "</pre>";
  */
+ //============Associative array============
+ //$age = array(
+ //	"bill"=> "25",
+ //	"steve"=> "22",
+ //	"elon" => "30",
+
+
+// );
+// echo $age["elon"]."<br>";
+// echo $age["steve"]."<br>";
+// echo $age["bill"]."<br>";
+ //new technic of writting associative array
+ /*$age = [
+ 	"bill" => "25",
+ 	"steve" => 22.5,
+ 	"elon" => 30
+ ];
+
+ $age["elon"] = 50;
+
+ echo $age["elon"]."<br>";
+ echo $age["steve"]."<br>";
+ echo $age["bill"]."<br>";
+
+//echo "<pre>";
+
+//print_r($age);
+
+//echo "</pre>";
+
+echo "<pre>";
+
+var_dump($age);
+
+echo "</pre>";
+*/
+
+
+$age = [
+ 	9 => "25",
+ 	"bill"=> 22.5,
+ 	300=> 30
+ ];
+
+ $age[3] = 50;
+
+ echo $age[9]."<br>";
+ echo $age["bill"]."<br>";
+ echo $age[300]."<br>";
+
+echo "<pre>";
+
+var_dump($age);
+
+echo "</pre>";
+
+
+
+
+
+
 
 
  ?>
