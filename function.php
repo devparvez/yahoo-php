@@ -156,7 +156,7 @@ function test(){
  test();
  echo "this is variable out side $x";
  */
-
+/*
 
  $x = 10;
  $y = 20;
@@ -169,6 +169,49 @@ function test(){
  echo "this is variable out side $x";
 
 
+*/
+
+ //==========arrays=======
+
+/* $colors = array("red","green","blue",20);
+
+ echo $colors[1]."<br>";
+ echo $colors[0]."<br>";
+ echo $colors[2]."<br>";
+ echo $colors[3]."<br>";
+ */
+// square braces, don't need to write array
+
+ $colors = ["red","green","blue",20];
+
+ /*
+ $colors[0] = "red";
+ $colors[1] = "green";
+ $colors[2] = "blue";
+ $colors[3] = "20";
+*/
+ for($i = 0;$i <= 3;$i++){
+ 	echo "<ul>";
+
+ 	echo "<li> $colors[$i] </li>";
+
+ 	echo "</ul>";
+ }
+
+
+
+
+
+
+ /*echo $colors[1]."<br>";
+ echo $colors[0]."<br>";
+ echo $colors[2]."<br>";
+ echo $colors[3]."<br>";
+*/
+ /*echo "<pre>";
+ print_r($colors);
+ echo "</pre>";
+ */
 
 
  ?>
