@@ -1,53 +1,56 @@
 <?php
-//multidimensional associative array
-$marks = [
-	"parvez"=>[
-		"phy"=>85,
-		"math"=>50,
-		"chemestry" => 60
-	],
-	"hossain"=>[
-		"phy"=>60,
-		"math"=>70,
-		"chemestry" => 30
-	],
-	"sado"=>[
-		"phy"=>33,
-		"math"=>35,
-		"chemestry" => 45
-	]
+/*$emp = [
+	[1,"parvez","mana",5000],
+	[2,"moyna","sales",2000],
+	[3,"tada","driver",3000],
+	[4,"aman","help",4000]
 
 ];
-echo "<table border='2px' cellpadding='5px' cellspacing='0'>
+*/
+$emp = [
+	[
+		"id"=>1,
+		"name"=>"parvez",
+		"designation"=>"Mana",
+		"salary"=>5000
+	],
+	[
+		"id"=>2,
+		"name"=>"moyna",
+		"designation"=>"sales",
+		"salary"=>5000
+	],
+	[
+		"id"=>3,
+		"name"=>"tada",
+		"designation"=>"driver",
+		"salary"=>5000
+	],
+	[
+		"id"=>4,
+		"name"=>"aman",
+		"designation"=>"help",
+		"salary"=>4000
+	]
+
+
+
+
+];
+echo  "<table border='2px' cellpadding='5px' cellspacing='0'>
 <tr>
-	<th>student name</th>
-	<th>student name</th>
-	<th>student name</th>
-	<th>student name</th>
+<th>emp id</th>
+<th>Name</th>
+<th>Designation</th>
+<th>Salary</th>
+</tr>
 
+";
+foreach($emp as list("id" => $id,"name" => $name,"designation"=>$designation,"salary" => $salary)){
 
-</tr>";
-
-foreach($marks as $key => $v1){
-	echo "<tr>
-
-	 <td> $key <td>";
-
-	foreach($v1 as $v2){
-
-		echo "<td> $v2 </td>";
-	}
-	echo "</tr>";
-
+	echo "<tr> <td>$id</td> <td>$name</td> <td>$designation </td><td>$salary</td></tr>";
 }
-
 echo "</table>";
-echo "<pre>";
-
-print_r($marks);
-
-echo "</pre>";
-
 
 
 
