@@ -7,6 +7,8 @@
 
 ];
 */
+
+/*
 $emp = [
 	[
 		"id"=>1,
@@ -51,6 +53,37 @@ foreach($emp as list("id" => $id,"name" => $name,"designation"=>$designation,"sa
 	echo "<tr> <td>$id</td> <td>$name</td> <td>$designation </td><td>$salary</td></tr>";
 }
 echo "</table>";
+*/
+//Array count and sizeof function
+
+//$food=array('berry','grapes','banana','apple');
+
+//echo count($food);
+//echo sizeof($food);
+/*$food = array(
+	'fruits' =>array('berry','grapes','banana','apple'),
+	'vegie'  => array('carrot','collard','pea')
+
+
+);
+*/
+//echo count($food);
+//echo sizeof($food);
+//echo count($food,1);
+//echo count($food['fruits'],1);
+$food=array('berry','grapes','banana','apple','grapes');
+
+//$len=count($food);
+
+//for($i = 0; $i < $len;$i++){
+//	echo $food[$i]."<br>";
+//}
+echo "<pre>";
+
+print_r(array_count_values($food));
+
+echo "</pre>";
+
 
 
 
